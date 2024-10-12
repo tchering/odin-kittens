@@ -1,0 +1,7 @@
+<h1>List of all Kittens</h1>
+<div>
+  <%@kittens.each do |kitten| %>
+    <%= render kitten %>
+  <% end %>
+</div>
+<%= link_to "Create",new_kitten_path %>
